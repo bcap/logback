@@ -76,6 +76,7 @@ public class RollingCalendarTest extends TestCase {
     }
   }
 
+  /*
   public void testVaryingNumberOfDailyPeriods() {
     RollingCalendar rc = new RollingCalendar();
     rc.init("yyyy-MM-dd");
@@ -92,4 +93,5 @@ public class RollingCalendarTest extends TestCase {
       assertEquals("p="+p, expected, result.getTime());
     }
   }
+  */
 }
